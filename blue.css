@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+/*Layout*/
+body{
+	font-family: font-family: 'Kalam', sans-serif;
+	    font-size: 14px;
+    color: #333;
+};
+/* PAPER BACKGROUND */
+
+#paper {
+	width:828px;
+	margin:0 auto;
+/*		background-image: "MyIMG.jpg";
+	background-size: cover;
+	background-repeat: no-repeat;*/
+}
+
+.paper-top {
+	/*background-image: 'bck.png';
+	background-size: cover;
+	background-repeat: no-repeat;
+*/	text-align: center;
+width:1000px;
+	margin:auto;
+	margin-top: 50px;
+	margin-left: 375px;
+	height:126px;
+}
+
+#paper-mid {
+	width:828px;
+	margin:0 auto;
+	display:block;
+	padding:0;
+	overflow: hidden;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+
+.paper-bottom {
+	width:828px;
+	height:18px;
+	margin:0 auto;
+}
+
+/* ENTRIES */
+
+.entry {
+	width:720px;
+	display: block;
+	padding-top:25px;
+	clear: both;
+	margin-left:4px;
+}
+
+ul.unordered {
+	float:right;
+	width:500px;
+	margin-left:40px;
+	
+}
+
+
+
+ul.info {
+	float:right;
+	width:500px;
+	margin-left:40px;
+	list-style-type: none; 
+}
+
+
+ul.skills {
+	margin:0;
+	padding:0;
+	float:right;
+	width:500px;
+	margin-left:40px;
+	margin-top:0px;
+	list-style-type: none;
+	
+}
+
+
+
+
+
+img.portrait {
+	width:150px;
+	height:150px;
+	padding-top:11px;
+	padding-left:11px;
+	padding-right:11px;
+	padding-bottom:36px;
+	margin-left:30px;
+	float:left;
+	
+}
+
+
+/* SELF INFORMATION */
+
+.self {
+	width:300px;
+	float:left;
+	padding-top:0px;
+	margin-left:38px;
+	margin-bottom:15px;
+}
+/* print function*/
+@media print{
+.print-instruction{
+	display: none;
+}
+.print{
+   text-align: right;
+   display: none;
+}
+.colophon{
+	display: none;
+}
+.colophon-mark{
+	display: none;
+}
+}
+.print{
+   text-align: right;
+   }
+.paper-bottom
+{
+	text-align: center;
+	color: grey;
+}
+
+/* SOCIAL ICONS */
+
+.social-icons a{
+color: black;
+font-size: 20px;
+padding-left: 305px;
+margin-top: 40px;
+text-align: right;
+
+}
+
+.colophon a{
+	padding-top: 75px;
+	text-decoration: none;
+color: black;}
+.col-lg-4{
+	position: relative;
+	width: 50%;
+}
+.img-circle{
+	 opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.col-lg-4:hover .img-circle{
+	 opacity: 0.3;
+}
+.name:hover .img-circle{
+	 opacity: 1;
+ }
+}
+.col-lg-4 p{
+	text-decoration: none;
+color: black;	
+}
